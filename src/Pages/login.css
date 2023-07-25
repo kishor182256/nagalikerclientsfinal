@@ -1,0 +1,91 @@
+
+.primary-bgcolor{
+    background-color: #B82C3A;
+}
+.main-bgcolor{
+    background-color: #FAFAFA;
+}
+.primary-color {
+   color: #B82C3A;
+}
+.title-color{
+    color: #121212;
+}
+.subtitle-color{
+    color: #696969;
+}
+.feild-color{
+    color: #676767;
+}
+input:focus{
+    outline: none;
+}
+.input-wrap{
+    border: 1px solid #C9C9C9;
+    color:  #C9C9C9;
+    font-size:17px;
+    /* font-family: 'Roboto'; */
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.login-container{
+    @apply  h-full main-bgcolor
+}
+
+.nav{
+	@apply text-white h-[72px] text-[40px] text-center
+}
+
+.main{
+	@apply flex pt-[80px] ps-[120px]
+}
+.div1{
+	@apply  pt-[80px]
+}
+.title{
+	@apply text-[32px]  text-left font-bold
+}
+.subtitle{
+	@apply  text-left text-[16px] pt-[20px]
+}
+.div2{
+	@apply ms-[12px]
+}
+.title-main{
+	@apply  ps-[62px]
+}
+.div3{
+	@apply  mt-[66px]  bg-white rounded-[14px] w-[479px] h-[414px]
+} 
+.div3-title{
+	@apply text-[28px] font-[400] text-left pt-[20px]
+} 
+.div3-subtitle{
+	@apply  text-[12px] text-left
+}
+.form{
+	@apply w-[479px] h-[414px]  
+}
+.input-wrapper{
+	@apply grid items-center justify-center
+}
+.login-first-field {
+	@apply w-[362px] h-[53px]  mt-[24px] flex items-center    font-[400] rounded-[14px]
+} 
+.login-second-field {
+	@apply w-[362px] h-[53px] mt-[24px] flex items-center    font-[400] rounded-[14px]
+} 
+input{
+    @apply  pl-4
+}
+.password-subtitle {
+	@apply text-left ps-[62px] primary-color mt-[36px]
+}
+.button {
+	@apply flex items-center justify-center    ms-[62px] mt-[24px] w-[112px] h-[53px] rounded-[14px]
+}
+.login-button{
+    @apply text-white 
+}
+
